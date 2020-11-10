@@ -15,10 +15,15 @@
     border-radius: 9px;
 }
 
-.gallery > * {
-    flex: 0 1 auto;
+.gallery-pic {
+    width: 100%;
+    /* max-width: 250px; */
 }
 
-.gallery-pic {
-    height: 300px
+.grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    grid-gap: 10px;
+    justify-content: center;
 }
