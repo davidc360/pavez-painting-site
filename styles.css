@@ -1,0 +1,24 @@
+.left-column{
+    height: 50vh;
+    /* max-height: 100vh; */
+}
+
+@media only screen and (min-width: 576px) {
+    .left-column{
+        position: fixed;
+        height: 100vh;
+    }
+}
+
+.profile-pic{
+    height: 170px;
+    border-radius: 9px;
+}
+
+.gallery > * {
+    flex: 0 1 auto;
+}
+
+.gallery-pic {
+    height: 300px
+}
